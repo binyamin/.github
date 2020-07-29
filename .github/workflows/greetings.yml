@@ -4,12 +4,15 @@ on:
   issues:
     type: ["opened"]
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
+      - run: "echo github.event"
       - name: Create Comment
         uses: simpleactions/create-issue-comment@v1.0.0
         with:
           body: "hi"
-      - run: "echo github.event"
