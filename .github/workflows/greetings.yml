@@ -1,0 +1,15 @@
+name: Greetings
+
+on:
+  issues:
+    type: ["opened"]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Comment
+        uses: simpleactions/create-issue-comment@v1.0.0
+        with:
+          body: "hi"
+      - run: "echo github.event"
