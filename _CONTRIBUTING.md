@@ -1,7 +1,8 @@
 # Contributing
 Hey there, and thanks for your help. Please adhere to the [Code of Conduct][CoC] (be a [mentsch](https://www.merriam-webster.com/dictionary/mensch)).
 
-There are a couple ways to get started. You can submit [bug reports](#bugs) or [feature requests](#feature-requests), or work on existing bugs/features by [claiming an issue](#claiming-an-issue).
+There are a couple ways to get started. You can submit [bug reports](#bugs) or [feature requests](#feature-requests), or work on existing bugs/features by [claiming an issue](#claiming-an-issue). If you have any questions, you can [reach out to me](https://binyam.in/contact).
+
 
 ## Bugs
 If you noticed a bug, please [submit a bug report][new_issue]. Include as much information as you think _might_ be helpful (eg. screenshots, browser version, related issues). Remember that GitHub doesn't limit the number of characters, so you can add whatever you think is necessary.
