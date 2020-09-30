@@ -16,6 +16,6 @@ Browse through [open issues][issue_log]. Once you've found one that you like, go
 
 When you're finished, open a pull request. Every pull request should correspond to an open issue (except for typos). Even if you already made the changes, you can create a _draft_ pull request instead, and open an issue.
 
-* [issue_log]: ./issues
-* [new_issue]: ./issues/new/choose
-* [CoC]: https://github.com/binyamin/.github/blob/master/.github/CODE_OF_CONDUCT.md
+[issue_log]: ./issues
+[new_issue]: ./issues/new/choose
+[CoC]: https://github.com/binyamin/.github/blob/master/.github/CODE_OF_CONDUCT.md
