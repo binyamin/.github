@@ -6,5 +6,5 @@
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
-  "timezone": "American/New_York"
+  "timezone": "America/New_York"
 }
