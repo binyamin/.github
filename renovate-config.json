@@ -3,7 +3,8 @@
   "extends": [
     "config:base",
     "schedule:earlyMondays",
-    "group:all"
+    "workarounds:typesNodeVersioning",
+    "group:allNonMajor"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
