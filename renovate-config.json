@@ -1,21 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     "schedule:earlyMondays",
-    "workarounds:typesNodeVersioning",
-    "group:allNonMajor"
+    ":semanticCommits"
   ],
   "labels": ["dependencies"],
-  "rangeStrategy": "bump",
-  "timezone": "America/New_York",
-  "packageRules": [
-    {
-      "description": "Don't bump engines field in package.json",
-      "matchPackageNames": ["node"],
-      "matchManagers": ["npm"],
-      "matchDepTypes": ["engines"],
-      "rangeStrategy": "auto"
-    }
-  ]
+  "timezone": "America/New_York"
 }
