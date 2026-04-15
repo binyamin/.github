@@ -2,9 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    "schedule:earlyMondays",
-    ":semanticCommits"
+    "schedule:monthly",
+    ":semanticCommits",
+    "group:allNonMajor",
   ],
+  "separateMinorPatch": false,
   "labels": ["dependencies"],
   "timezone": "America/New_York"
 }
